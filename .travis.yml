@@ -1,0 +1,58 @@
+language: node_js
+
+cache: yarn
+
+node_js:
+  - 8
+  - 10
+
+before_install:
+  - npm i -g yarn
+
+script:
+  - yarn build
+  - yarn test
+
+# Environment variables marked with `secure` should be securely encrypted as described at:
+# https://docs.travis-ci.com/user/environment-variables/#encrypting-environment-variables
+
+notifications:
+  slack:
+    # secure
+    your-slack-organisation:your-slack-api-token
+
+env:
+  global:
+    # secure
+    - CC=your-code-climate-token
+    # secure
+    - GH_TOKEN=your-github-token
+    # secure
+    - NPM_TOKEN=your-npm-token
+    - export GIT_AUTHOR_NAME="EndemolShineGroupUser"
+    - export GIT_AUTHOR_EMAIL="tech@endemolshine.com"
+    - export GIT_COMMITTER_NAME="EndemolShineGroupUser"
+    - export GIT_COMMITTER_EMAIL="tech@endemolshine.com"
+
+jobs:
+  include:
+    - stage: coverage
+      if: type != pull_request
+      before_script:
+        - curl -L https://codeclimate.com/downloads/test-reporter/test-reporter-latest-linux-amd64 > ./cc-test-reporter
+        - chmod +x ./cc-test-reporter
+        - ./cc-test-reporter before-build
+      after_script:
+        - ./cc-test-reporter after-build --exit-code $TRAVIS_TEST_RESULT
+      after_success:
+        - yarn global add codecov
+        - codecov
+    - stage: release
+      if: branch = master AND type != pull_request
+      after_success:
+        - yarn semantic-release
+        - git clone https://${GH_TOKEN}@github.com/$TRAVIS_REPO_SLUG.git $TRAVIS_REPO_SLUG
+        - cd $TRAVIS_REPO_SLUG
+        - git fetch --all
+        - git merge origin/master
+        - git push
