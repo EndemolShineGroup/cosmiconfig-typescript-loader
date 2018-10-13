@@ -25,9 +25,16 @@ yarn add @endemolshinegroup/cosmiconfig-typescript-loader
 ## Usage
 
 ```typescript
-import Library from @endemolshinegroup/cosmiconfig-typescript-loader;
+import cosmiconfig from 'cosmiconfig';
+import TypeScriptLoader from '@endemolshinegroup/cosmiconfig-typescript-loader';
 
-const library = new Library();
+const explorer = cosmiconfig('myModuleName', {
+  loaders: {
+    '.ts': {
+      async: TypeScriptLoader,
+    },
+  },
+});
 ```
 
 [icon-license]: https://img.shields.io/github/license/EndemolShineGroup/cosmiconfig-typescript-loader.svg?longCache=true&style=flat-square
