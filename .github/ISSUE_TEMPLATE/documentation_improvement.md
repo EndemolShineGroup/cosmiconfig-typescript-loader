@@ -14,8 +14,6 @@ about: Create an issue for improving the documentation
 
 ## Description
 
-***Package***:
-
 <!--
 1. Any information here is helpful, such as misleading or ambiguous text
 -->

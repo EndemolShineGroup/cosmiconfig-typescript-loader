@@ -73,8 +73,6 @@ will be deployed as soon as possible.
 
 **Happy coding**!
 
-[link-lerna]: https://lernajs.io/
-[link-yarn-workspaces]: https://yarnpkg.com/blog/2017/08/02/introducing-workspaces/
 [link-tslint]: https://palantir.github.io/tslint/
 [link-prettier]: https://prettier.io/
 [link-typescript]: https://www.typescriptlang.org/
