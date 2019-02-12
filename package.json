@@ -52,7 +52,7 @@
     "@types/cosmiconfig": "^5",
     "@types/jest": "^23",
     "@types/lodash.get": "^4",
-    "@types/node": "^10",
+    "@types/node": "^11.9.0",
     "commitizen": "^3",
     "cosmiconfig": "^5",
     "husky": "^1",
