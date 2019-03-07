@@ -38,7 +38,7 @@
   },
   "dependencies": {
     "lodash.get": "^4",
-    "ts-node": "^7",
+    "ts-node": "^8.0.3",
     "tslib": "^1.9.3"
   },
   "devDependencies": {
