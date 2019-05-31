@@ -43,7 +43,7 @@
     "tslib": "^1.9.3"
   },
   "devDependencies": {
-    "@commitlint/cli": "^7",
+    "@commitlint/cli": "^8.0.0",
     "@commitlint/config-conventional": "^7",
     "@endemolshinegroup/cz-github": "^1",
     "@endemolshinegroup/prettier-config": "^1",
