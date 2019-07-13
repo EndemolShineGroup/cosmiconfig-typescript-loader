@@ -1,8 +1,5 @@
-linters:
-  "src/**/*.ts":
-    - "tslint --fix"                        # Run TSLint
-    - "prettier --write"                    # Run Prettier
-    - "jest --bail --findRelatedTests"      # Run tests
-    - "git add"
-ignore:
-  - "**/__fixtures__/error.ts"
+"src/**/*.ts":
+  - "tslint --fix"                        # Run TSLint
+  - "prettier --write"                    # Run Prettier
+  - "jest --bail --findRelatedTests"      # Run tests
+  - "git add"
