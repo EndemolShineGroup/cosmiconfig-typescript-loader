@@ -55,7 +55,7 @@
     "@types/lodash.get": "^4",
     "@types/node": "8.*",
     "commitizen": "^3",
-    "cosmiconfig": "^5",
+    "cosmiconfig": "^6.0.0",
     "husky": "^3",
     "jest": "^24",
     "lint-staged": "^9",
