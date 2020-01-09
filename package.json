@@ -56,7 +56,7 @@
     "@types/node": "8.*",
     "commitizen": "^3",
     "cosmiconfig": "^5",
-    "husky": "^3",
+    "husky": "^4.0.2",
     "jest": "^24",
     "lint-staged": "^9",
     "prettier": "^1",
