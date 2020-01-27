@@ -51,7 +51,7 @@
     "@semantic-release/changelog": "^3",
     "@semantic-release/git": "^7",
     "@types/cosmiconfig": "^5",
-    "@types/jest": "^24",
+    "@types/jest": "^25.1.0",
     "@types/lodash.get": "^4",
     "@types/node": "8.*",
     "commitizen": "^3",
