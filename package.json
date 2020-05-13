@@ -40,7 +40,7 @@
     "lodash.get": "^4",
     "make-error": "^1",
     "ts-node": "^8",
-    "tslib": "^1"
+    "tslib": "^2.0.0"
   },
   "devDependencies": {
     "@commitlint/cli": "^8",
