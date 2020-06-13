@@ -24,6 +24,31 @@ yarn add @endemolshinegroup/cosmiconfig-typescript-loader
 
 ## Usage
 
+With cosmiconfig 6.x
+
+```typescript
+import cosmiconfig from 'cosmiconfig';
+import TypeScriptLoader from '@endemolshinegroup/cosmiconfig-typescript-loader';
+
+const moduleName = 'myModuleName';
+const explorer = cosmiconfig(moduleName, {
+  searchPlaces: [
+    'package.json',
+    `.${moduleName}rc`,
+    `.${moduleName}rc.json`,
+    `.${moduleName}rc.yaml`,
+    `.${moduleName}rc.yml`,
+    `.${moduleName}rc.ts`,
+    `.${moduleName}rc.js`,
+    `${moduleName}.config.ts`,
+    `${moduleName}.config.js`,
+  ],
+  loaders: {
+    '.ts': TypeScriptLoader,
+  },
+});
+```
+
 With cosmiconfig 5.x
 
 ```typescript
