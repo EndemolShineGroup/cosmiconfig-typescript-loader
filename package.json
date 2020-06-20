@@ -59,7 +59,7 @@
     "husky": "^4",
     "jest": "^24",
     "lint-staged": "^10",
-    "prettier": "^1",
+    "prettier": "^2",
     "rimraf": "^3",
     "semantic-release": "^15",
     "ts-jest": "^24",
