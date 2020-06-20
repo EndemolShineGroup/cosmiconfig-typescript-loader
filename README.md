@@ -24,8 +24,6 @@ yarn add @endemolshinegroup/cosmiconfig-typescript-loader
 
 ## Usage
 
-With cosmiconfig 6.x
-
 ```typescript
 import cosmiconfig from 'cosmiconfig';
 import TypeScriptLoader from '@endemolshinegroup/cosmiconfig-typescript-loader';
@@ -45,21 +43,6 @@ const explorer = cosmiconfig(moduleName, {
   ],
   loaders: {
     '.ts': TypeScriptLoader,
-  },
-});
-```
-
-With cosmiconfig 5.x
-
-```typescript
-import cosmiconfig from 'cosmiconfig';
-import TypeScriptLoader from '@endemolshinegroup/cosmiconfig-typescript-loader';
-
-const explorer = cosmiconfig('myModuleName', {
-  loaders: {
-    '.ts': {
-      async: TypeScriptLoader,
-    },
   },
 });
 ```
