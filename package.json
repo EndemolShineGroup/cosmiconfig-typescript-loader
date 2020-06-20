@@ -66,7 +66,7 @@
     "tslint": "^5",
     "tslint-config-prettier": "^1",
     "tslint-eslint-rules": "^5",
-    "typedoc": "^0.14.2",
+    "typedoc": "^0.17.7",
     "typescript": "^3"
   }
 }
