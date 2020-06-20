@@ -1,3 +1,15 @@
+# [3.0.0](https://github.com/EndemolShineGroup/cosmiconfig-typescript-loader/compare/v2.0.0...v3.0.0) (2020-06-20)
+
+
+### Build System
+
+* change minimum supported Node version ([c450d41](https://github.com/EndemolShineGroup/cosmiconfig-typescript-loader/commit/c450d41))
+
+
+### BREAKING CHANGES
+
+* change minimum supported version of Node to v10
+
 # [2.0.0](https://github.com/EndemolShineGroup/cosmiconfig-typescript-loader/compare/v1.0.2...v2.0.0) (2020-06-20)
 
 
