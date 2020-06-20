@@ -3,7 +3,7 @@
 [![MIT Licensed][icon-license]][link-license]
 [![NPM Version][icon-npm]][link-npm]
 [![Build Status][icon-ci]][link-ci]
-[![Greenkeeper Status][icon-greenkeeper]][link-greenkeeper]
+[![Dependabot Status][icon-dependabot]][link-dependabot]
 
 [![Code Issues][icon-issues]][link-issues]
 [![Codebase Maintainability][icon-maintainability]][link-maintainability]
@@ -55,8 +55,8 @@ const explorer = cosmiconfig(moduleName, {
 [link-npm]: https://www.npmjs.com/package/@endemolshinegroup/cosmiconfig-typescript-loader
 [icon-ci]: https://img.shields.io/travis/com/EndemolShineGroup/cosmiconfig-typescript-loader.svg?longCache=true&style=flat-square
 [link-ci]: https://travis-ci.com/EndemolShineGroup/cosmiconfig-typescript-loader
-[icon-greenkeeper]: https://img.shields.io/badge/greenkeeper-enabled-brightgreen.svg?longCache=true&style=flat-square
-[link-greenkeeper]: https://greenkeeper.io/
+[icon-dependabot]: https://flat.badgen.net/dependabot/EndemolShineGroup/cosmiconfig-typescript-loader?icon=dependabot
+[link-dependabot]: https://dependabot.com/
 
 [icon-issues]: https://img.shields.io/codeclimate/issues/EndemolShineGroup/cosmiconfig-typescript-loader.svg?longCache=true&style=flat-square
 [link-issues]: https://codeclimate.com/github/EndemolShineGroup/cosmiconfig-typescript-loader/issues
