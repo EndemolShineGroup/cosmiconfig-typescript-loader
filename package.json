@@ -48,7 +48,7 @@
     "@endemolshinegroup/cz-github": "^1",
     "@endemolshinegroup/prettier-config": "^1",
     "@endemolshinegroup/tslint-config": "^1",
-    "@semantic-release/changelog": "^3",
+    "@semantic-release/changelog": "^5",
     "@semantic-release/git": "^7",
     "@types/cosmiconfig": "^6",
     "@types/jest": "^26",
