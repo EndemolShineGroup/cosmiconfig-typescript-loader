@@ -14,6 +14,9 @@
     "name": "Endemol Shine Group Technology",
     "url": "https://github.com/EndemolShineGroup"
   },
+  "files": [
+    "dist"
+  ],
   "homepage": "https://github.com/EndemolShineGroup/cosmiconfig-typescript-loader",
   "repository": {
     "type": "git",
