@@ -1,3 +1,10 @@
+## [3.0.1](https://github.com/EndemolShineGroup/cosmiconfig-typescript-loader/compare/v3.0.0...v3.0.1) (2020-09-04)
+
+
+### Bug Fixes
+
+* publish only necessary files to npm ([edc924e](https://github.com/EndemolShineGroup/cosmiconfig-typescript-loader/commit/edc924ecb5fff5541129b8646a5668a61e776293))
+
 # [3.0.0](https://github.com/EndemolShineGroup/cosmiconfig-typescript-loader/compare/v2.0.0...v3.0.0) (2020-06-20)
 
 
