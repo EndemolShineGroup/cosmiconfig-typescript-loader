@@ -23,8 +23,7 @@
     "url": "https://github.com/EndemolShineGroup/cosmiconfig-typescript-loader.git"
   },
   "engines": {
-    "node": ">=10.0.0",
-    "yarn": ">=1.4.0"
+    "node": ">=10.0.0"
   },
   "scripts": {
     "pretest": "rimraf coverage/",
