@@ -42,7 +42,7 @@
   "dependencies": {
     "lodash.get": "^4",
     "make-error": "^1",
-    "ts-node": "^8",
+    "ts-node": "^9",
     "tslib": "^2"
   },
   "devDependencies": {
