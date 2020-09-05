@@ -1,3 +1,11 @@
+## [3.0.2](https://github.com/EndemolShineGroup/cosmiconfig-typescript-loader/compare/v3.0.1...v3.0.2) (2020-09-05)
+
+
+### Bug Fixes
+
+* remove `yarn` from `engines` declarations ([26e9aec](https://github.com/EndemolShineGroup/cosmiconfig-typescript-loader/commit/26e9aec31b0465ab65568c1b192376c84be4fd41)), closes [#77](https://github.com/EndemolShineGroup/cosmiconfig-typescript-loader/issues/77)
+* use valid version of Yarn in `engines` ([09983de](https://github.com/EndemolShineGroup/cosmiconfig-typescript-loader/commit/09983de925080107f4a90e822b3dca6a79fc9b56)), closes [#77](https://github.com/EndemolShineGroup/cosmiconfig-typescript-loader/issues/77)
+
 ## [3.0.1](https://github.com/EndemolShineGroup/cosmiconfig-typescript-loader/compare/v3.0.0...v3.0.1) (2020-09-04)
 
 
