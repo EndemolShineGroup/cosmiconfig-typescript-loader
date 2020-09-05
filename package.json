@@ -47,7 +47,7 @@
   },
   "devDependencies": {
     "@commitlint/cli": "^8",
-    "@commitlint/config-conventional": "^8",
+    "@commitlint/config-conventional": "^9",
     "@endemolshinegroup/cz-github": "^1",
     "@endemolshinegroup/prettier-config": "^1",
     "@endemolshinegroup/tslint-config": "^1",
