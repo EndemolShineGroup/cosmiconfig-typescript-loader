@@ -45,8 +45,8 @@
     "tslib": "^2"
   },
   "devDependencies": {
-    "@commitlint/cli": "^9",
-    "@commitlint/config-conventional": "^9",
+    "@commitlint/cli": "^11",
+    "@commitlint/config-conventional": "^11",
     "@endemolshinegroup/cz-github": "^2",
     "@endemolshinegroup/prettier-config": "^1",
     "@endemolshinegroup/tslint-config": "^1",
