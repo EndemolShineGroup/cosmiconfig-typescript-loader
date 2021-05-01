@@ -54,7 +54,7 @@
     "@semantic-release/git": "^9",
     "@types/jest": "^26",
     "@types/lodash.get": "^4",
-    "@types/node": "10.*",
+    "@types/node": "15.*",
     "commitizen": "^4",
     "cosmiconfig": "^7",
     "husky": "^4",
