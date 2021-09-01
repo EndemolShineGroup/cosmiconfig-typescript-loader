@@ -59,7 +59,7 @@
     "cosmiconfig": "^7",
     "husky": "^4",
     "jest": "^26",
-    "lint-staged": "^10",
+    "lint-staged": "^11",
     "prettier": "^2",
     "rimraf": "^3",
     "semantic-release": "^17",
