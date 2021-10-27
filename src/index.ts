@@ -3,7 +3,7 @@ import get from 'lodash.get';
 
 import TypeScriptCompileError from './Errors/TypeScriptCompileError';
 
-const loader: Loader = async (filePath: string) => {
+const loader: Loader = (filePath: string) => {
   try {
     require('ts-node/register');
     const result = require(filePath);
