@@ -16,6 +16,10 @@
 
 A TypeScript loader for Cosmiconfig
 
+## Status
+
+This package is no longer maintained: Please use [this fork from @Codex-](https://github.com//cosmiconfig-typescript-loader/) instead.
+
 ## Installation
 
 ```bash
