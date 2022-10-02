@@ -36,7 +36,8 @@
     "lint": "tslint -p tsconfig.json -t codeFrame 'src/**/*.ts' -e 'src/**/*.spec.ts'"
   },
   "peerDependencies": {
-    "cosmiconfig": ">=6"
+    "cosmiconfig": ">=6",
+    "typescript": ">=2.7"
   },
   "dependencies": {
     "lodash.get": "^4",
