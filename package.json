@@ -62,7 +62,7 @@
     "lint-staged": "^10",
     "prettier": "^2",
     "rimraf": "^3",
-    "semantic-release": "^17",
+    "semantic-release": "^19",
     "ts-jest": "^26",
     "tslint": "^5",
     "tslint-config-prettier": "^1",
