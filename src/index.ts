@@ -5,7 +5,11 @@ import TypeScriptCompileError from './Errors/TypeScriptCompileError';
 
 const loader: Loader = (filePath: string) => {
   try {
-    require('ts-node/register');
+    const tsNode = require("ts-node");
+    tsNode.register({
+      compilerOptions: { module: "commonjs" },
+    });
+
     const result = require(filePath);
 
     return get(result, 'default', result);
